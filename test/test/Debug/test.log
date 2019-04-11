@@ -1,0 +1,29 @@
+﻿生成启动时间为 2019/4/11 18:01:36。
+     1>项目“D:\lzy\my_project\test\test\test.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Moc'ing test.h...
+         Uic'ing test.ui...
+         Rcc'ing test.qrc...
+     1>RCC : warning : No resources in 'D:\lzy\my_project\test\test\test.qrc'.
+         
+       ClCompile:
+         D:\VS2015\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\QT5.6_for_VS2015\5.6\msvc2015\include /I.\GeneratedFiles\Debug /ID:\QT5.6_for_VS2015\5.6\msvc2015\include\QtCore /ID:\QT5.6_for_VS2015\5.6\msvc2015\include\QtGui /ID:\QT5.6_for_VS2015\5.6\msvc2015\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_test.cpp main.cpp MyItem.cpp test.cpp
+         moc_test.cpp
+         main.cpp
+         MyItem.cpp
+         test.cpp
+         正在生成代码...
+         D:\VS2015\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\QT5.6_for_VS2015\5.6\msvc2015\include /I.\GeneratedFiles\Debug /ID:\QT5.6_for_VS2015\5.6\msvc2015\include\QtCore /ID:\QT5.6_for_VS2015\5.6\msvc2015\include\QtGui /ID:\QT5.6_for_VS2015\5.6\msvc2015\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_test.cpp
+         qrc_test.cpp
+       Link:
+         D:\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\lzy\my_project\test\Win32\Debug\\test.exe" /NOLOGO /LIBPATH:D:\QT5.6_for_VS2015\5.6\msvc2015\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\lzy\my_project\test\Win32\Debug\test.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\lzy\my_project\test\Win32\Debug\test.lib" /MACHINE:X86 /SAFESEH Debug\moc_test.obj
+         Debug\qrc_test.obj
+         Debug\main.obj
+         Debug\MyItem.obj
+         Debug\test.obj
+         test.vcxproj -> D:\lzy\my_project\test\Win32\Debug\test.exe
+     1>已完成生成项目“D:\lzy\my_project\test\test\test.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:24.81
